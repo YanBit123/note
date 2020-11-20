@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T15:43:58.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.7.5" etag="CVa8tzqYnnIpXLGSCZkw" type="github"><diagram id="a3kxQaEhh1ZI4TfRthBQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-20T15:55:08.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="dD-ZZJDyhGE_lXJl1bW4" version="13.7.5" type="github">
+  <diagram id="a3kxQaEhh1ZI4TfRthBQ" name="第 1 页">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-33" value="4.返回操作结果" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-21" target="u4VVO7-VoJDxtCYP1n_U-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-21" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="334" y="585" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-30" value="1.用户请求" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-23" target="u4VVO7-VoJDxtCYP1n_U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-23" value="UI 表示层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-31" value="2.数据操作" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-24" target="u4VVO7-VoJDxtCYP1n_U-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-35" value="6.响应请求" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-24" target="u4VVO7-VoJDxtCYP1n_U-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-24" value="BLL 业务逻辑层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-32" value="3.数据库操作" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-25" target="u4VVO7-VoJDxtCYP1n_U-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-34" value="5.返回结果" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u4VVO7-VoJDxtCYP1n_U-25" target="u4VVO7-VoJDxtCYP1n_U-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4VVO7-VoJDxtCYP1n_U-25" value="DAL 数据访问层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
